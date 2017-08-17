@@ -128,8 +128,13 @@ function bapeLondon(){
         interactive: false,
     });
 }
-
-
+function bapeNY(){
+        map.flyTo({
+        center: [-74.002427,40.7242006],
+        zoom: 18,
+        interactive: false,
+    });
+}
 function bapeHK(){
         map.flyTo({
         center: [114.0340567,22.2864971],
